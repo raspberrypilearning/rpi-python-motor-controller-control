@@ -1,12 +1,12 @@
-title: rpi-python-motor-controller
+title: Driving motors with a motor controller board
 hero_image: images/banner.png
-description: rpi-python-motor-controller description
-original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
+description: Control motors with a controller board and Python
+original_url: 
 theme: cc-prototype
-duration: 1 # 1, 2 or 3
+duration: 1
 listed: false
-ingredient: false
-interests: "games, photography, physical computing"
-technologies: "electronics, physical computing, python, scratch"
+ingredient: true
+interests: ""
+technologies: "electronics, physical computing, python"
 steps:
-  - title: Step one
+  - title: Control your motors
