@@ -17,7 +17,7 @@
 
 	![board](images/board.jpg)
 	
-- It uses **GPIO 7** and **8** for one motor, and **GPIO 9** and **10** for the other. You need to create a `motor` object using one of these sets of pins, depending on which one you want to control.
+- It uses **GPIO 7** and **8** for one motor, and **GPIO 9** and **10** for the other. You need to create a `motor` object using one of these sets of pins, depending on which motor you want to control.
 
 	```python
 	motor_1 = Motor(7, 8)
