@@ -1,8 +1,8 @@
 - With your motor controller board and motors setup, you can use a little bit of Python to control the motors.
 
-- Open IDLE, by clicking on `Menu` --> `Programming` --> `Python 3 (IDLE)`.
+- Open IDLE, by clicking on `Menu` > `Programming` > `Python 3 (IDLE)`.
 
-- Create a new file, by clicking on `File` --> `New File`. Save you new file as `motor_test.py`
+- Create a new file, by clicking on `File` > `New File`. Save you new file as `motor_test.py`
 
 ### Controlling individual motors.
 - If you only have one motor attached, or want to control them independently of each other, then you can use the `Motor` class in `gpiozero`.
