@@ -1,11 +1,11 @@
-- With your motor controller board and motors setup, you can use a little bit of Python to control the motors.
+- With your motor controller board and motors wired up, you can use a little bit of Python to control the motors.
 
-- Open IDLE, by clicking on `Menu` > `Programming` > `Python 3 (IDLE)`.
+- Open IDLE by clicking on **Menu** > **Programming** > **Python 3 (IDLE)**.
 
-- Create a new file, by clicking on `File` > `New File`. Save you new file as `motor_test.py`
+- Create a new file by clicking on **File** > **New File**. Save you new file as `motor_test.py`.
 
-### Controlling individual motors.
-- If you only have one motor attached, or want to control them independently of each other, then you can use the `Motor` class in `gpiozero`.
+### Controlling individual motors
+- If you only have one motor attached, or want to control motors independently of each other, you can use the `Motor` class in `gpiozero`.
 
 - At the top of your file, type the following to import the class.
 
@@ -17,12 +17,12 @@
 
 	![board](images/board.jpg)
 	
-- This uses GPIO pins `7` and `8` for one motor, and pins `9` and `10` for the other motor. You need to create a `Motor` object using one of these sets of pins, depending on which one you want to control.
+- It uses **GPIO 7** and **8** for one motor, and **GPIO 9** and **10** for the other. You need to create a `motor` object using one of these sets of pins, depending on which one you want to control.
 
 	```python
 	motor_1 = Motor(7, 8)
 	```
-- Now you can use the following commands, to drive your motors.
+- Now you can use the following commands to drive your motors.
 
 	```python
 	motor_1.forward()
@@ -30,7 +30,7 @@
 	motor_1.stop()
 	```
 
-- You could use the sleep function, to let the motors run for any length of time.
+- Use the sleep function to let the motors run for a specified length of time.
 
 	```python
 	from time import sleep
@@ -39,13 +39,13 @@
 	sleep(5)
 	motor_1.stop()
 	```
-- Both the `forward` and `backward` methods can also take a `float` to control the speed.
+- The `forward` and `backward` methods can also take a floating-point number to control the motor's speed.
 
 	```python
 	motor_1.forward(0.5)
 	```
 	
-### Controlling both motors.
+### Controlling both motors
 - If you want to control both motors simultaneously, then you can use the `Robot` class. For example:
 
 ```python
