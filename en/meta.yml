@@ -1,0 +1,13 @@
+title: Driving motors with a motor controller board
+hero_image: images/banner.png
+description: Control motors with a controller board and Python
+original_url: 
+theme: cc-prototype
+duration: 1
+listed: false
+ingredient: true
+copyedit: true
+interests: ""
+technologies: "electronics, physical computing, python"
+steps:
+  - title: Control your motors
