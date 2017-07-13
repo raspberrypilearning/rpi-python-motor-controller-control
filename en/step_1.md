@@ -30,7 +30,7 @@
 	motor_1.stop()
 	```
 
-- Use the sleep function to let the motors run for a specified length of time.
+- Add the sleep function to let the motors run for a specified length of time.
 
 	```python
 	from time import sleep
@@ -59,4 +59,6 @@ robot.stop()
 robot.right(0.5)
 sleep(2)
 robot.backward()
+sleep(2)
+robot.stop()
 ```
